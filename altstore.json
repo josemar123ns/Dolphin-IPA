@@ -1,0 +1,12 @@
+{
+  "installers": [
+    {
+      "name": "AltStore",
+      "type": "altstore",
+      "platforms": ["ios"],
+      "url": "https://altstore.io",
+      "modified": "2026-03-26 19:05:49",
+      "description": "Install AltStore without requiring a Mac."
+    }
+  ]
+}
