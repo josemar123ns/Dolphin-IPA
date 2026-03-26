@@ -1,0 +1,10 @@
+workflows:
+  ios-workflow:
+    name: iOS Build
+    environment:
+      vars:
+        BUNDLE_ID: com.josemar.gamecube
+    scripts:
+      - echo "Building iOS app"
+    artifacts:
+      - build/ios/ipa/*.ipa
